@@ -1,0 +1,5 @@
+my_os_image      = "ami-0cae6d6fe6048ca2c"
+machine_size     = "t2.nano"
+my_aws_region    = "us-east-1"
+private_key_name = "splunk-key"
+vm_name          = "austin-vm-newname-final-4"
