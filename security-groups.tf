@@ -1,6 +1,6 @@
 # security group definition. do not add rules in the same file
 resource "aws_security_group" "austin-security-groups" {
-  name        = "allow_rules"
+  name        = "austin_allow_rules"
   description = "Allow TLS inbound traffic and all outbound traffic"
   vpc_id      = data.aws_vpc.austin-vpc.id
 
