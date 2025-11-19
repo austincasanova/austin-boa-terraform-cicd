@@ -6,10 +6,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "austin-boa-terraform-state"
-    key = "dev/austin/terraform.tfstate"
-    encrypt = true
-    region = "us-east-1"
+    bucket         = "austin-boa-terraform-state"
+    key            = "dev/austin/terraform.tfstate"
+    encrypt        = true
+    region         = "us-east-1"
     dynamodb_table = "austin-lock-table"
   }
 }
